@@ -1,2 +1,2 @@
-# curriculoSite
-Um site com meu curriculo interativo
+# Curriculo
+-- Um site com meu curriculo interativo
