@@ -1,4 +1,8 @@
 /* Aqui o meu primeiro codigo CSS */
+.tituloCima{
+		width: 100%;
+		text-align: center;
+}
 #site{
   width:1200px;
   height:1000px;
