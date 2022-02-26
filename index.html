@@ -1,73 +1,87 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Minha apresentação</title>
-		<link rel="stylesheet" href="style.css"
-	</head>
-	<body>
-		<header class="tituloCima">
-			
-			<h1>Curriculo: Allan</h1>
-			
-		</header>
-		<div id="site">
-			<div id="conteudo">
-				<div id="bloco-esquerda">
-					<h2><i class="fa-solid fa-circle-user"></i>Informações de perfil</h2>
-					<p>
-						<i class="fa-solid fa-angles-right"></i>
-						Estudante de Engenharia de Computação.<br>
-					</p>
-					<h2><i class="fa-solid fa-paper-plane"></i>Objetivo</h2>
-					<p id="fraseImpacto">
-						<em>
-							Ainda no começo mas cada dia mais empolgado em aprender</em>
-					</p>
-				</div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Minha apresentação</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+  </head>
+  <body>
+    <img src="banner.png" class="banner">
+    <div id="conteudo">
+      <div id="bloco-esquerda">
+	<p>
+	  <h1>Aqui uma página teste para uma loja de sapatos.<br></h1><br>
+	</p>
+	<br>
+	«Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.»
+      </div>
+      <div id="bloco-direita">
 
+	<div id="menuAccordion">
+	  <div class="c">
+	    <input type="checkbox" id="faq-1">
+	    <h1><label for="faq-1">Algum link aqui ?</label></h1>
+	    <div class="p">
+	      <p>Aqui o link do primeiro Menu.</p>
+	    </div>
+	  </div>
+	  <div class="c">
+	    <input type="checkbox" id="faq-2">
+	    <h1><label for="faq-2">Algum link aqui ?</label></h1>
+	    <div class="p">
+	      <p>Feito apenas com CSS e HTML.</p>
+	    </div>
+	  </div>
+	  <div class="c">
+	    <input type="checkbox" id="faq-3">
+	    <h1><label for="faq-3">Ficou bem bonitão</label></h1>
+	    <div class="p">
+	      <p>Super bonitão !<br>
+		<a href="https://css-tricks.com/the-checkbox-hack/">link to article</a>
+	      </p>
+	    </div>
+	  </div>
 
-				<div id="bloco-direita">
-					<h2>Experiências</h2>
-					<div id="periodo">Periodo</div>
-					<div id="empresa">Empresa</div>
+	  <div class="c">
+	    <input type="checkbox" id="faq-3">
+	    <h1><label for="faq-3">Fim do Menu</label></h1>
+	    <div class="p">
+	      <p>Super bonitão !<br>
+	      </p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+      <div class="espaco">
+      </div>
+      
+    <div class="listaProdutos">
+      <img src="img/shoes1.jpg" class="produtos">
+      <img src="img/shoes2.jpg" class="produtos">
+      <img src="img/shoes3.jpg" class="produtos">
+      <img src="img/shoes4.jpg" class="produtos">
+    </div>
 
-					<div id="educacao">
-						<h2>Educação</h2>
-						3° semestre de engenharia de computação
-					</div>
-					
-				</div>
-				
-				<!-- <div id="contatos">
-						 <h1>Meus contatos</h1>
-						 <p>
-						 <a href="https://github.com/allancsilva">
-						 <i class="icon fab fa-github"></i>
-						 </a>
-						 <span class="separador">      </span>
-						 <a href="mailto: allancaetano.acs@gmail.com">
-						 <i class="icon fas fa-envelope"></i>
-						 </a>
-						 <span class="separador">      </span>
-						 <a href="https://www.linkedin.com/in/allancaetanosilva">
-						 <i class="icon fab fa-linkedin-in"></i>
-						 </a>
-						 </p>
-						 </div>
-				-->
-
-
-				
-			</div>
-		</div>
- 		<script src="https://kit.fontawesome.com/1eb8565b05.js" crossorigin="anonymous"></script>
-	</body>
+    <div id="contatos">
+      <p>
+	<p>
+	  <a href="https://github.com/allancsilva">
+	    <i class="icon fab fa-github"></i>
+	  </a>
+	  <span class="separador">      </span>
+	  <a href="mailto: allancaetano.acs@gmail.com">
+	    <i class="icon fas fa-envelope"></i>
+	  </a>
+	  <span class="separador">      </span>
+	  <a href="https://www.linkedin.com/in/allancaetanosilva">
+	    <i class="icon fab fa-linkedin-in"></i>
+	  </a>
+	</p>
+      </p>
+    </div>
+    <script src="https://kit.fontawesome.com/1eb8565b05.js" crossorigin="anonymous"></script>
+  </body>
 </html>
-
-
-
-				
-
-
-
